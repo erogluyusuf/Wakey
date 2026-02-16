@@ -1,0 +1,28 @@
+[package]
+name = "wakey"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yusuf Eroglu <erogluyusuf@github>"]
+description = "Linux Instant-On Daemon for MacOS-like wake speed"
+
+[dependencies]
+# Asenkron Runtime (Motor)
+tokio = { version = "1", features = ["full"] }
+
+# D-Bus İletişimi (Sinir Sistemi) - Systemd ile konuşmak için
+zbus = { version = "3", features = ["tokio"] }
+
+# Düşük Seviye Sistem Çağrıları
+nix = "0.26"
+
+# Loglama (Gözlem)
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+# Hata Yönetimi
+anyhow = "1.0"
+
+# Veri İşleme
+serde = { version = "1.0", features = ["derive"] }
+futures = "0.3.32"
+evdev = "0.13.2"

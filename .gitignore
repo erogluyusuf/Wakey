@@ -1,0 +1,7 @@
+target/
+*.lock
+logs/
+Cache/
+CachedData/
+User/
+.vscode/
