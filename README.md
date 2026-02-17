@@ -1,6 +1,6 @@
 # Wakey: Universal Linux Zero-Latency Instant-On Daemon
 
-![Project Status](https://img.shields.io/badge/Status-Stable-success)
+![Project Status](https://img.shields.io/badge/Status-Experimental-lightgrey)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![Distro](https://img.shields.io/badge/Distro-Agnostic-blue)
 ![Language](https://img.shields.io/badge/Language-Rust-brown)
